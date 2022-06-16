@@ -9,7 +9,7 @@ const Banner = (props) => {
             >
                 <span
                  className={styles.title1}
-                 >resturant</span>
+                 >coffee</span>
                 <span 
                 className={styles.title2}
                 >Connoisseur</span>
