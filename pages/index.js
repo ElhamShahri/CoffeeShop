@@ -13,7 +13,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Banner buttonText="View stores nearby"/>
+        <Banner
+          buttonText="View stores nearby"
+          handleOnclick={handleOnBannerBtnClick}
+        />
+        <div>
+          <Image></Image>
+        </div>
       </main>
 
     </div>
